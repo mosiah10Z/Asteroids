@@ -330,7 +330,8 @@ void Game::handleCollisions()
 							score += points;
 							(*it)->kill();
 
-							//cerr << (*it)->isAlive(); clean up
+							//cerr << (*it)->isAlive(); 
+
 
 
 							// the bullet is dead as well
